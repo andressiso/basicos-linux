@@ -43,13 +43,20 @@ cat ~/.ssh/id_ed25519.pub
 La clave privada se almacena en ~/.ssh
 
 ## Comandos Git
-git status
+git status -> Comando fundamental para comprobar el estado del repositorio. Utilizar antes de hacer commit o push cuando no funcione.
+
+git add . -> Prepara los cambios
+
+git commit -m "Comentario" -> Crea un punto en el historial local
+
+git push -> Envía los commits a GitHub
+
+## Remoto del Repositorio
+
+Comprobar remoto:
 
 git remote -v
 
-git add .
 
-git commit -m "Comentario"
-
-git push
-
+Cambiar de HTTPS a SSH:
+git remote set-url git@github.com.com:usuario/repositorio.git 
