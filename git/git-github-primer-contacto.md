@@ -40,8 +40,12 @@ La clave privada se almacena en ~/.ssh
 
 ## Comandos Git
 git status
+
 git remote -v
+
 git add .
+
 git commit -m "Comentario"
+
 git push
 
