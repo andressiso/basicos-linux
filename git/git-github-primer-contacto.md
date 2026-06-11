@@ -1,4 +1,4 @@
-#GIT y GITHUB
+# GIT y GITHUB
 Git trabaja localmente
 GitHub es una plataforma
 
@@ -19,7 +19,7 @@ GitHub devolvía :
 GitHub ya no permite autenticarse mediante contraseña para operaciones Git.
 En la plataforma tuve que activar la autenticacion por SSH.
 
-##SSH
+## SSH
 SSH utiliza un par de claves:
 ·Clave privada: permanece en mi equipo.
 ·Clave pública: se comparte con el servicio remoto.
@@ -38,9 +38,10 @@ cat ~/.ssh/id_ed25519.pub
 
 La clave privada se almacena en ~/.ssh
 
-##Comandos Git
+## Comandos Git
 git status
 git remote -v
 git add .
+git commit -m "Comentario"
 git push
 
